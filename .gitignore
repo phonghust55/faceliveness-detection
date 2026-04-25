@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Data & Model (file lớn)
+data/raw/
+data/processed/
+data/LCC_FASD_*/
+data/_kaggle_download/
+checkpoints/*.keras
+checkpoints/*.h5
+checkpoints/*.pb
+checkpoints/*.tflite
+results/plots/*.png
+results/reports/*.json
+!checkpoints/.gitkeep
+!results/plots/.gitkeep
+!results/reports/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

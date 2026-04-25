@@ -1,0 +1,33 @@
+# Tested OK: Python 3.12 + Windows 11 (smoke_test.py pass)
+# Lưu ý: MediaPipe >= 0.10.22 dùng Tasks API mới (đã được code hỗ trợ).
+
+# --- Core ML ---
+tensorflow>=2.15,<2.21
+numpy>=2.0,<2.2              # TF 2.20 cần numpy 2.x; mediapipe 0.10.33 OK với numpy 2.x
+scikit-learn>=1.4
+pandas>=2.2
+protobuf>=5.28               # TF 2.20 yêu cầu
+
+# --- Computer Vision ---
+opencv-python>=4.9
+mediapipe>=0.10.22           # Phải >= 0.10.22 để dùng Tasks API
+Pillow>=10.3
+
+# --- Visualization ---
+matplotlib>=3.8
+seaborn>=0.13
+
+# --- Web Backend ---
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+pydantic>=2.7
+
+# --- Streamlit (phương án demo nhanh) ---
+streamlit>=1.34
+streamlit-webrtc>=0.47
+av>=12.0
+
+# --- Utility ---
+tqdm>=4.66
+PyYAML>=6.0
