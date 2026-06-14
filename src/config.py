@@ -50,7 +50,7 @@ DROPOUT_RATE = 0.3
 EARLY_STOPPING_PATIENCE = 5
 
 # === EVALUATION ===
-DECISION_THRESHOLD = 0.5          # Ngưỡng phân loại real/spoof
+DECISION_THRESHOLD = 0.3         # Ngưỡng phân loại real/spoof (hạ từ 0.5 để giảm FRR trên webcam)
 ROC_THRESHOLDS_NUM = 200          # Số ngưỡng để tính EER
 
 # === WEBAPP ===

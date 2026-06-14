@@ -2,26 +2,26 @@
 BIOMETRIC EVALUATION REPORT
 ============================================================
   Threshold        : 0.5000
-  Accuracy         : 0.7897
-  AUC (ROC)        : 0.8957
+  Accuracy         : 0.7893
+  AUC (ROC)        : 0.9026
 ------------------------------------------------------------
-  FAR  @ thr=0.50 : 0.2125   (spoof bị nhận thành real)
-  FRR  @ thr=0.50 : 0.1592   (real bị từ chối thành spoof)
-  HTER @ thr=0.50 : 0.1859
-  EER              : 0.1782   (tại ngưỡng 0.5537)
+  FAR  @ thr=0.50 : 0.2136   (spoof bị nhận thành real)
+  FRR  @ thr=0.50 : 0.1433   (real bị từ chối thành spoof)
+  HTER @ thr=0.50 : 0.1785
+  EER              : 0.1880   (tại ngưỡng 0.5483)
 ------------------------------------------------------------
 Confusion Matrix [rows=true, cols=pred]:
              pred=spoof  pred=real
-  true=spoof       5702      1539
-  true=real          50       264
+  true=spoof       5694      1547
+  true=real          45       269
 ------------------------------------------------------------
               precision    recall  f1-score   support
 
-       spoof     0.9913    0.7875    0.8777      7241
-        real     0.1464    0.8408    0.2494       314
+       spoof     0.9922    0.7864    0.8773      7241
+        real     0.1481    0.8567    0.2526       314
 
-    accuracy                         0.7897      7555
-   macro avg     0.5689    0.8141    0.5636      7555
-weighted avg     0.9562    0.7897    0.8516      7555
+    accuracy                         0.7893      7555
+   macro avg     0.5701    0.8215    0.5650      7555
+weighted avg     0.9571    0.7893    0.8514      7555
 
 ============================================================
